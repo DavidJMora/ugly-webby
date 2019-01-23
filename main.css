@@ -1,21 +1,23 @@
 h1 {
-    color: #111;
-    font-family: 'Helvetica Neue', sans-serif;
+    color: rgb(220, 243, 14);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 275px;
     font-weight: bold;
-    letter-spacing: -1px;
+    letter-spacing: -70px;
     line-height: 1;
     text-align: center;
 }
 
 p {
-    color: #685206;
+    color: #0f0f0b;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 14px;
     line-height: 24px;
     margin: 0 0 24px;
-    text-align: justify;
+    text-align: right;
     text-justify: inter-word;
+    letter-spacing: 20px;
+    direction: rtl;
 }
 
 textarea {
@@ -26,12 +28,21 @@ textarea {
 
 ul, ol {
     margin: 20px;
-    padding: 0;
+    padding: 90;
+    color: rgb(115, 250, 126);
+    margin: 30px;
+    webkit-transform:rotate(-180deg);
+    moz-transform:rotate(-180deg);
+    o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+    ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    direction: rtl;
 }
 
 li {
-    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-    border-bottom: 1px solid #ccc;
+    font: 200 20px/1.5;
+    border-bottom: 1px solid rgb(214, 90, 33);
 }
    
 li:last-child {
@@ -39,14 +50,51 @@ li:last-child {
 }
 
 form {
-    height:110px;
+    height:190px;
     width:190px;
     margin:auto;
-    border:1px #CCC solid;
+    border:90px rgb(177, 12, 177) double;
     padding:10px;
 }
     
 input, textarea {
     padding:5px;
-    margin:5px
+    margin:5px;
+    background-color: rgb(143, 26, 26);
+}
+h3 {
+    border: 20px dotted orange;
+    color: darkkhaki;
+    margin-top: 5px;
+    margin-left: 5px;
+    webkit-transform:rotate(-90deg);
+    moz-transform:rotate(-90deg);
+    o-transform:rotate(-90deg);
+    transform:rotate(-90deg);
+    ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+div {
+    padding: 30px;
+    color: black;
+}
+ol {
+    color: hotpink;
+    webkit-transform:rotate(-62deg);
+    moz-transform:rotate(-62deg);
+    o-transform:rotate(-62deg);
+    transform:rotate(-62deg);
+    ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    direction: ltr;
+}
+html {
+    background-color: royalblue;
+}
+cite {
+    font-size: 40px;
+    color: gold;
+}
+em {
+    
 }
